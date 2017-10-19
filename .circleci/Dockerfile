@@ -1,3 +1,4 @@
+# docker image for build environment
 FROM golang:1.9
 
 RUN go get github.com/gohugoio/hugo
