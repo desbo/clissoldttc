@@ -1,13 +1,3 @@
 baseURL = "http://clissoldttc.co.uk/"
 languageCode = "en-gb"
-<<<<<<< HEAD
-<<<<<<< Updated upstream
 title = "Clissold Table Tennis Club"
-=======
-title = "Clissold Table Tennis Club"
-theme = "clissoldttc"
->>>>>>> Stashed changes
-=======
-title = "Clissold Table Tennis Club"
-theme = "ananke"
->>>>>>> 0c43bd5... remove theme
