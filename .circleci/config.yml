@@ -8,3 +8,6 @@ jobs:
       - run:
           name: Build site
           command: hugo
+      - run:
+          name: Upload to S3
+          command: s3up 

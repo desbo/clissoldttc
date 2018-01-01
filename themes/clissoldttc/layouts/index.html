@@ -1,0 +1,36 @@
+{{ define "main" }}
+<section class="hero is-primary is-fullheight">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <!-- Logo Text -->
+        </div>
+
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item is-active">
+              Location
+            </a>
+            <a class="navbar-item">
+              Fixtures
+            </a>
+            <a class="navbar-item">
+              Contact
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        {{ .Title }}
+      </h1>
+    </div>
+  </div>
+</section>
+{{ end }}

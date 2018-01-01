@@ -1,2 +1,0 @@
-# Clissold TTC
-Hello world!
