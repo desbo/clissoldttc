@@ -10,4 +10,4 @@ jobs:
           command: hugo
       - run:
           name: Upload to S3
-          command: s3up 
+          command: aws s3 sync public s3://clissoldttc.co.uk
