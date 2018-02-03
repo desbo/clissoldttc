@@ -1,3 +1,3 @@
 ---
-title: clissold table tennis club
+title: Clissold Table Tennis Club
 ---

@@ -1,3 +1,7 @@
 baseURL = "http://clissoldttc.co.uk/"
 languageCode = "en-gb"
 title = "Clissold Table Tennis Club"
+theme = "clissoldttc"
+
+[params]
+  description = "clissold park table tennis club"

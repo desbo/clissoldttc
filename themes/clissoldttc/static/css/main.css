@@ -1,0 +1,17 @@
+/*    
+      http://www.colourlovers.com/palette/4518639/Serennis_Citron 
+      http://www.colourlovers.com/palette/3809542/G06301502  
+*/
+
+html, body { 
+  background-color: #3F51B5;
+  height: 100%;
+}
+
+.title--logo {
+  font-family: "Rammetto One";
+  font-size: 3rem;
+  color: white;
+  text-transform: uppercase;
+  width: 450px;
+}
