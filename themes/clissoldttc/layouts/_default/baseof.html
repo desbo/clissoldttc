@@ -5,21 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{ .Hugo.Generator }}
 
-    <title>{{ .Title }}</title>
+    <title>{{ .Title }} | Clissold Table Tennis Club</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Rammetto+One|Taviraj|Work+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One|Taviraj|Work+Sans:400,900" rel="stylesheet">
+    
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
+
   <section class="section">
     <div class="container">
-      {{ block "main" . }}
-      <!-- The part of the page that begins to differ between templates -->
-      {{ end }}
-      {{ block "footer" . }}
-      <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
-      {{ end }}
+      <div class="columns level">
+        <div class="column is-6">
+          <h1 class="title title--logo">
+            <a class="title--logo__link" href="/">Clissold Table Tennis Club</a>
+          </h1>
+        </div>
+
+        <div class="column">
+          {{ partial "nav.html" . }}
+        </div>
+      </div>
     </div>
   </section>
+
+  {{ block "main" . }}
+  <!-- The part of the page that begins to differ between templates -->
+  {{ end }}
+
+  {{ block "footer" . }}
+  <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+  {{ end }}
   </body>
 </html>

@@ -1,0 +1,25 @@
+---
+menu: 
+  main:
+    weight: 20
+title: Location
+---
+
+<div class="columns">
+  <div class="column is-4">
+    <p>
+    Clissold Leisure Centre <br />
+    63 Clissold Rd <br />
+    Stoke Newington <br />
+    London N16 9EX <br />
+    </p>
+  </div>
+  <div class="column is-8">
+    <iframe
+      class="maps"
+      frameborder="0" style="border:0"
+      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDjJ9j9VFtqSpKsjzKtS9yfGM0rzXFP6NA
+        &q=Clissold+Leisure+Centre" allowfullscreen>
+    </iframe>
+  </div>
+</div>

@@ -1,3 +1,3 @@
 ---
-title: Clissold Table Tennis Club
----
+title: Home
+--- 

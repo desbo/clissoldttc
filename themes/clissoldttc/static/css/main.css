@@ -5,13 +5,93 @@
 
 html, body { 
   background-color: #3F51B5;
+  color: white;
   height: 100%;
+  font-family: 'Work Sans', BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+.section {
+  padding: 1.5rem;
+}
+
+.homepage-image {
+  width: 100%;
+}
+
+.title {
+  font-family: "Work Sans";
+  color: white;
 }
 
 .title--logo {
-  font-family: "Rammetto One";
-  font-size: 3rem;
   color: white;
+  font-family: "Rammetto One";
+  font-size: 2.325rem;
   text-transform: uppercase;
-  width: 450px;
+  width: 21rem;
+}
+
+.title--logo__link, 
+.title--logo__link:visited,
+.title--logo__link:active {
+  color: white;
+}
+
+.title--logo__link:hover {
+  color: #1EFFA5;
+}
+
+.nav-link {
+  font-family: "Work Sans";
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.nav-link,
+.nav-link:visited,
+.nav-link:active {
+  color: white;
+}
+
+.nav-link:hover {
+  background: rgba(255,255,255,0.1)
+}
+
+.nav-link.active {
+  color: #1EFFA5;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+main {
+  padding: 0 1.5rem;
+}
+
+.maps {
+  width: 100%;
+  height: 440px;
+}
+
+@media screen and (max-width: 769px) {
+  .section:first-of-type {
+    padding: 1.5rem 1.5rem;
+  }
+
+  .title--logo {
+    font-size: 1.6rem;
+    width: 15rem;
+  }
+
+  .nav-link {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    padding: 0;
+  }
 }
