@@ -90,6 +90,10 @@ main {
   }
 }
 
+.match {
+  margin-bottom: 2rem;
+}
+
 @media screen and (min-width: 1024px) {
   main {
     padding: 0;
