@@ -12,13 +12,12 @@ function init() {
       const upcoming = fixtures.filter(f => new Date(f.time) > new Date());
       const html = upcoming.map(match => {
         const time = new Date(match.time);
+        const dateString = time.toUTCString().replace(' GMT', '')
 
         return `
           <div class="match">
             <p>
-              <div class="time">
-                ${time.toLocaleDateString()} ${time.toLocaleTimeString()}
-              </div>
+              <div class="time">${dateString}</div>
 
               <div class="teams">
                 <h2 class="title is-4">
