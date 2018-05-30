@@ -10,7 +10,7 @@ function init() {
     .then(res => res.json())
     .then(fixtures => {
       const upcoming = fixtures.filter(f => new Date(f.time) > new Date());
-      const html = upcoming.map(match => {
+      const matchesHtml = upcoming.map(match => {
         const time = new Date(match.time);
         const dateString = time.toUTCString().replace(' GMT', '')
 
@@ -33,7 +33,9 @@ function init() {
           `
       });
 
-      document.getElementById('fixtures').insertAdjacentHTML('afterbegin', html.join('\n'));
+      const html = matchesHtml.length > 0 ? matchesHtml.join('\n') : '<p>No matches scheduled at the moment.</p>'
+
+      document.getElementById('fixtures').insertAdjacentHTML('afterbegin', html);
     });
 }
 
