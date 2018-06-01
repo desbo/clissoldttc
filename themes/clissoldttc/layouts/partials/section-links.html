@@ -1,0 +1,10 @@
+<ul class="section-links">
+{{ range where .Site.Pages "Section" .Section }}
+  {{ if .IsPage }}
+  <li>
+    <a class="link section-link title is-5 has-text-weight-light" href="{{.Permalink}}">{{.Title}}</a>
+    <small class="section-link-date">{{.Date.Format "2 Jan 2006"}}</small>
+  </li>
+  {{ end }}
+{{ end }}
+</ul>
