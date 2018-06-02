@@ -1,8 +1,8 @@
 <nav class="nav">
   <div class="columns is-mobile">
-      {{ $currentPage := . }}
+      {{ $currentNode := . }}
       {{ range .Site.Menus.main }}
-      <a class="column has-text-centered nav-link {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL }}">
+      <a class="column has-text-centered link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}active{{ end }} nav-link" href="{{ .URL }}">
         {{ .Name }}
       </a>
       {{ end }}
