@@ -9,9 +9,10 @@ collections:
   - name: news stories
     label: news story
     folder: content/news
+    format: yaml-frontmatter
     create: true
     fields:
       - {label: "title", name: "title", widget: "string"}
       - {label: "publish date", name: "date", widget: "datetime"}
       - {label: "main image", name: "thumbnail", widget: "image"}
-      - {label: "content", name: "content", widget: "markdown"}
+      - {label: "body", name: "body", widget: "markdown"}
