@@ -3,7 +3,8 @@
   <main class="main">
     <div class="columns">
       <div class="column is-8">
-        <h1 class="title is-3">{{ .Title }}</h1>
+        <h1 class="title is-3">{{ .Title }} <small class="section-link-date is-size-6 has-text-weight-light">{{.Date.Format "2 Jan 2006"}}</small></h1>
+        <img class="news-thumbnail" src="{{ .Params.thumbnail }}" />
         {{ .Content }}
       </div>
 
