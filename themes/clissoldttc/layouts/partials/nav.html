@@ -2,9 +2,11 @@
   <div class="columns is-mobile nav-links">
       {{ $currentNode := . }}
       {{ range .Site.Menus.main }}
-      <a class="has-text-right link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}active{{ end }} nav-link" href="{{ .URL }}">
-        {{ .Name }}
-      </a>
+      <div class="has-text-right">
+        <a class="link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}active{{ end }} nav-link" href="{{ .URL }}">
+          {{ .Name }}
+        </a>
+      </div>
       {{ end }}
   </div>
 </nav>
