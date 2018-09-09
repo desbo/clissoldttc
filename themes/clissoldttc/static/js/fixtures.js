@@ -1,6 +1,6 @@
 const apiURL = 'https://tt365-fixtures.appspot.com';
 const league = 'CentralLondon';
-const season = 'Winter_2017-18';
+const season = 'Winter_2018-19';
 const clubId = 5123;
 
 const url = `${apiURL}/${league}/${season}?club_id=${clubId}`
