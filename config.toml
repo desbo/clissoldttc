@@ -7,6 +7,7 @@ sectionPagesMenu = "main"
 
 [params]
   description = "clissold park table tennis club"
+  gaID = "UA-125718074-1"
 
 [[menu.main]]        
   name = "News"
