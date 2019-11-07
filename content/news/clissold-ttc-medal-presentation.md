@@ -1,5 +1,5 @@
 ---
-title: Clissold TTC medal presentation
+title: Medal presentation
 date: 2019-11-07T11:18:11.597Z
 thumbnail: /img/uploads/whatsapp-image-2019-11-05-at-10.05.01.jpeg
 ---
