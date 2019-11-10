@@ -16,8 +16,8 @@ function testTeams(f, match) {
   return f(match.home) || f(match.away)
 }
 
-function involvesClissold(match) {
-  return testTeams(t => t.name.toLowerCase().includes("clissold"), match)
+function involvesTeam(match, teamName) {
+  return testTeams(t => t.name.toLowerCase().includes(teamName), match)
 }
 
 function init() {
@@ -27,7 +27,7 @@ function init() {
   Promise.all(matchData)
     .then(matches => {
       const matchesHtml = matches.flat()
-        .filter(involvesClissold)
+        .filter(m => involvesTeam(m, "clissold") && !involvesTeam(m, "bye"))
         .sort((a, b) => new Date(a.date) - new Date(b.date))
         .map(match => {
           const time = new Date(Date.parse(match.date))
