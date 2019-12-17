@@ -27,7 +27,7 @@ function init() {
   Promise.all(matchData)
     .then(matches => {
       const matchesHtml = matches.flat()
-        .filter(m => involvesTeam(m, "clissold") && !involvesTeam(m, "bye"))
+        .filter(m => involvesTeam(m, "clissold") && !involvesTeam(m, "bye") && new Date(m.date) !== "Invalid Date")
         .sort((a, b) => new Date(a.date) - new Date(b.date))
         .map(match => {
           const time = new Date(Date.parse(match.date))
