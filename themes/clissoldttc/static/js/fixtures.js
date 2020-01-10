@@ -20,6 +20,10 @@ function involvesTeam(match, teamName) {
   return testTeams(t => t.name.toLowerCase().includes(teamName), match)
 }
 
+function time(match) {
+  return new Date(Date.parse(match.time || match.date))
+}
+
 function init() {
   const now = Date.now()
   const matchData = divisionIDs.map(id => matches(upcomingMatchesURL(id, now)))
@@ -27,11 +31,10 @@ function init() {
   Promise.all(matchData)
     .then(matches => {
       const matchesHtml = matches.flat()
-        .filter(m => involvesTeam(m, "clissold") && !involvesTeam(m, "bye"))
+        .filter(m => involvesTeam(m, "clissold") && !involvesTeam(m, "bye") && !!time(m).getDate() && time(m) >= now)
         .sort((a, b) => new Date(a.date) - new Date(b.date))
         .map(match => {
-          const time = new Date(Date.parse(match.date))
-          const dateString = time.toDateString().replace(' GMT', '')
+          const dateString = time(match).toDateString().replace(' GMT', '')
 
           return `
             <div class="match">
