@@ -8,31 +8,38 @@
 }
 
 html, body { 
-  background-color: #3F51B5;
+  /* background-color: #3F51B5; */
+  background-color: rgb(27, 80, 56);
   color: white;
   height: 100%;
-  font-family: 'Work Sans', BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif
+  font-family: 'Roboto', BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+footer.footer {
+  background-color: rgb(27, 80, 56);
+  padding-top: 0;
+  padding-bottom: 1em;
 }
 
 .section {
   padding: 1.5rem;
 }
 
-.homepage-image {
+/* .homepage-image {
   width: 100%;
-}
+} */
 
 .title {
-  font-family: "Work Sans";
+  font-family: "Roboto";
   color: white;
 }
 
 .title--logo {
   color: white;
-  font-family: "Rammetto One";
+  font-family: "Roboto";
   font-size: 2.325rem;
   text-transform: uppercase;
-  width: 21rem;
+  width: 15rem;
 }
 
 .title--logo__link, 
@@ -46,7 +53,7 @@ html, body {
 }
 
 .title--logo__link:hover {
-  color: #1EFFA5;
+  color: #56A3A6;
   background: none;
 }
 
@@ -55,7 +62,7 @@ html, body {
 }
 
 .nav-link {
-  font-family: "Work Sans";
+  font-family: "Roboto";
   font-weight: 900;
   text-transform: uppercase;
   font-size: 1.5rem;
@@ -73,7 +80,7 @@ html, body {
 
 .link.active,
 .section-link:hover {
-  color: #1EFFA5;
+  color: #56A3A6;
 }
 
 .nav-link:hover {
@@ -98,7 +105,7 @@ a {
 }
 
 a, a:active, a:visited, a:hover {
-  color: #1EFFA5;
+  color: #56A3A6;
 }
 
 a:hover {
