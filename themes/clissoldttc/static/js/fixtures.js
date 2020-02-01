@@ -25,8 +25,10 @@ function time(match) {
 }
 
 function init() {
-  const now = Date.now()
+  const now = new Date()
   const matchData = divisionIDs.map(id => matches(upcomingMatchesURL(id, now)))
+
+  now.setDate(now.getDate() + 1) // ensures matches for the current day are shown
   
   Promise.all(matchData)
     .then(matches => {
