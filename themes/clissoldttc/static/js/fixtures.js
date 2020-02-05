@@ -33,7 +33,7 @@ function init() {
   Promise.all(matchData)
     .then(matches => {
       const matchesHtml = matches.flat()
-        .filter(m => involvesTeam(m, "clissold") && !involvesTeam(m, "bye") && !!time(m).getDate() && time(m) >= now)
+        .filter(m => involvesTeam(m, "clissold") && !involvesTeam(m, "bye") && !!time(m).getDate() && time(m) > now)
         .sort((a, b) => new Date(a.date) - new Date(b.date))
         .map(match => {
           const dateString = time(match).toDateString().replace(' GMT', '')
