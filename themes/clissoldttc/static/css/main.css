@@ -112,6 +112,10 @@ a:hover {
   background: rgba(255,255,255,0.1);
 }
 
+strong {
+  color: white;
+}
+
 @media screen and (max-width: 769px) {
   .section:first-of-type {
     padding: 1.5rem 1.5rem;
