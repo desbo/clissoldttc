@@ -13,7 +13,7 @@ sectionPagesMenu = "main"
   name = "Home"
   weight = 1
   identifier = "home"
-  url = "/home"
+  url = "/"
 
 [[menu.main]]
   name = "News"
