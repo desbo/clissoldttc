@@ -9,7 +9,13 @@ sectionPagesMenu = "main"
   description = "clissold park table tennis club"
   gaID = "UA-125718074-1"
 
-[[menu.main]]        
+[[menu.main]]   
+  name = "Home"
+  weight = 1
+  identifier = "home"
+  url = "/home"
+
+[[menu.main]]
   name = "News"
   weight = 20
   identifier = "news"
