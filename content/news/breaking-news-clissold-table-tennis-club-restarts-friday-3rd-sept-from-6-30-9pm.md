@@ -2,7 +2,7 @@
 title: "Breaking News:  Clissold Table Tennis Club Restarts Friday 3rd Sept from
   6:30-9pm"
 date: 2021-08-31T01:11:31.241Z
-thumbnail: img/uploads/21bc1e66-5fe9-4439-9243-67ee0bff40da.jpg
+thumbnail: img/uploads/8c78cde1-55f7-45eb-be66-23e6f5b602a4.jpeg
 ---
 **Following a very long 18 months or so of zero table tennis action at our beloved home of clissold leisure centre, Friday 3rd of September will mark the return of all table tennis actions at clissold from 6:30pm🏓**
 
