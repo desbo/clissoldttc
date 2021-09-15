@@ -1,5 +1,5 @@
 ---
-title: ClissoldTTC Successfully Restarted Friday 3rd Sept from 6:30-9:30pm
+title: ClissoldTTC Successfully Restarted on Sept 3rd from 7-9:30pm
 date: 2021-08-31T01:11:31.241Z
 thumbnail: img/uploads/d9e91814-372d-4506-a8e1-bb2fb5aff222.jpeg
 ---
