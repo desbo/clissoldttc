@@ -12,7 +12,7 @@ Basic Bats and balls will be provided if needed, and the cost is comparative to 
 
 Kids, GLL members; Unwaged and OAP’s get a discounted rate otherwise it’s a cheap £4:90 to play for approx 2 fun hours where coaching is available. 
 
-Sessions are coached and superbised to ensure safety and satisfaction of customers.
+Sessions are coached and supervised to ensure safety and satisfaction of customers.
 
 For further information please contact the centre or call/text: 07378840390 or email: chris.beckley.tt@gmail.com
 
