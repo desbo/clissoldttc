@@ -3,7 +3,7 @@ title: ClissoldTTC Successfully Restarted on Sept 3rd from 7-9:30pm
 date: 2021-08-31T01:11:31.241Z
 thumbnail: img/uploads/d9e91814-372d-4506-a8e1-bb2fb5aff222.jpeg
 ---
-**Aftet a very long 18 months or so of zero table tennis action at our beloved home of clissold leisure centre, Friday 3rd of September will go down in the annals of the club history as a golden moment when all that seemed lost was fully restored,  Long queues marked our return from 7pm🏓 with all hands on deck to set up.**
+**After a very long 18 months or so of zero table tennis action at our beloved home of clissold leisure centre, Friday 3rd of September will go down in the annals of the club history as a golden moment when all that seemed lost was fully restored,  Long queues marked our return from 7pm🏓 with all hands on deck to set up.**
 
 **Hopefully bookings to play table tennis with friends and families will also return and bookable via the Better App in the very near future** 
 
