@@ -4,7 +4,7 @@ title: Tuesdays 6-8pm All Inclusive 🏓 Session Takes Off In Style @KingsHall L
 date: 2021-09-16T02:37:36.254Z
 thumbnail: img/uploads/ee74cfd2-b071-4ff6-9173-89ad43db9a9a.jpeg
 ---
-For the first time in Hackney Central an all abilities and all standards table tennis drop in session has been introduced. 
+For the first time in Hackney Central an all abilities and all standards table tennis drop in session has been introduced at KingsHall Leisure Centre, London E5 0NU…🏓
 
 On Tuesday 14 September 2021, we kicked off in style in front of a full house an all inclusive ‘just turn up’ table tennis drop in session at Hackneys Central KingsHall Leisure Centre. The plan is to continue to hold these sessions every Tuesdays from 6-8pm and as we grow break it into two sessions to allow for junior sessions to start early.
 
