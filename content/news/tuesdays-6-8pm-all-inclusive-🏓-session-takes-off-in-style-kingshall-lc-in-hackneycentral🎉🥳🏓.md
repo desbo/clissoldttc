@@ -17,3 +17,5 @@ Sessions are coached and superbised to ensure safety and satisfaction of custome
 For further information please contact the centre or call/text: 07378840390 or email: chris.beckley.tt@gmail.com
 
 May the nets and edges be with you when you visit 😀🏓💐
+
+Other sessions within the borough can be found below:
