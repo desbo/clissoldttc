@@ -1,7 +1,7 @@
 ---
 title: Wednesday Early Evening (6-8pm) Kids & Adults TT Session Returns @Clissold LC
 date: 2021-09-22T12:59:51.803Z
-thumbnail: img/uploads/clissoldkids.jpg
+thumbnail: img/uploads/ad0cd147-d1d3-4480-bb31-bca889cd4efd.jpeg
 ---
 Starting from next Wednesday 29 September 2021, the highly popular midweek mixed drop-in  table-tennis session restarts at Clissold Leisure Centre from 6-8pm!
 
