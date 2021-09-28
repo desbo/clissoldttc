@@ -1,5 +1,5 @@
 ---
-title: Table Tennis Drop In Tonight At Kingshalll Leisure Centre
+title: Table Tennis Drop In Tonight At KingsHall Leisure Centre
 date: 2021-09-28T08:59:53.079Z
 thumbnail: img/uploads/8ad2f38b-1fd6-4e9f-b120-a00d4bc7cb8c.jpeg
 ---
