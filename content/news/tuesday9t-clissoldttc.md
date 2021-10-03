@@ -1,5 +1,5 @@
 ---
-title: Tuesday9t@ClissoldTTC
+title: Tuesday9t@ClissoldTTC -  SORRY DISCONTINUED DUE TO COVID …😷😫🏓
 date: 2020-03-05T15:17:49.295Z
 thumbnail: img/uploads/clissoldkids.jpg
 ---
