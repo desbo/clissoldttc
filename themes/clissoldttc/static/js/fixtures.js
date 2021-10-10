@@ -1,4 +1,4 @@
-const apiURL = 'https://tt365-fixtures.appspot.com';
+const apiURL = 'https://planar-berm-308814.appspot.com';
 const league = 'CentralLondon';
 const season = 'Winter_2021-22';
 const clubId = 5123;
