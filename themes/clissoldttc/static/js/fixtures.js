@@ -9,7 +9,7 @@ function init() {
   fetch(url)
     .then(res => res.json())
     .then(fixtures => {
-      const upcoming = fixtures.filter(f => new Date(f.time) > new Date()).sort((a, b) => a.time - b.time);
+      const upcoming = fixtures.filter(f => new Date(f.time) > new Date()).sort((a, b) => new Date(a.time) - new Date(b.time));
       const matchesHtml = upcoming.map(match => {
         const time = new Date(match.time);
         const dateString = time.toUTCString().replace(' GMT', '')
