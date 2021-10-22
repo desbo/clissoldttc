@@ -1,5 +1,5 @@
 ---
-title: "TrulyFullHouse@Clissold 🏓Extravaganza "
+title: "TrulyFullHouseFriday9t@Clissold 🏓Extravaganza "
 date: 2021-10-22T06:32:45.171Z
 thumbnail: img/uploads/3b1c35f0-3623-411c-9c14-6025cb7912a0.jpeg
 ---
