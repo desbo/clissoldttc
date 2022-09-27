@@ -1,6 +1,6 @@
 const apiURL = 'https://clissold-ttc-1518990911806.ew.r.appspot.com';
 const league = 'CentralLondon';
-const season = 'Winter_2021-22';
+const season = 'Winter_2022-23';
 const clubId = 5123;
 
 const url = `${apiURL}/${league}/${season}?club_id=${clubId}`
