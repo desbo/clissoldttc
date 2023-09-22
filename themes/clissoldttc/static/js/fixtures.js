@@ -1,4 +1,4 @@
-import { winterSeasonString } from './date'
+import { winterSeasonString } from './date.js'
 
 const apiURL = 'https://clissold-ttc-1518990911806.ew.r.appspot.com'
 const league = 'CentralLondon'
