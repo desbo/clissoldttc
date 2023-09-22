@@ -1,7 +1,9 @@
-const apiURL = 'https://clissold-ttc-1518990911806.ew.r.appspot.com';
-const league = 'CentralLondon';
-const season = 'Winter_2022-23';
-const clubId = 5123;
+import { winterSeasonString } from './date'
+
+const apiURL = 'https://clissold-ttc-1518990911806.ew.r.appspot.com'
+const league = 'CentralLondon'
+const clubId = 5123
+const season = winterSeasonString(new Date())
 
 const url = `${apiURL}/${league}/${season}?club_id=${clubId}`
 
@@ -9,9 +11,11 @@ function init() {
   fetch(url)
     .then(res => res.json())
     .then(fixtures => {
-      const upcoming = fixtures.filter(f => new Date(f.time) > new Date()).sort((a, b) => new Date(a.time) - new Date(b.time));
+      const upcoming = fixtures
+        .filter(f => new Date(f.time) > new Date())
+        .sort((a, b) => new Date(a.time) - new Date(b.time))
       const matchesHtml = upcoming.map(match => {
-        const time = new Date(match.time);
+        const time = new Date(match.time)
         const dateString = time.toUTCString().replace(' GMT', '')
 
         return `
@@ -29,12 +33,15 @@ function init() {
             </p>
           </div>
           `
-      });
+      })
 
-      const html = matchesHtml.length > 0 ? matchesHtml.join('\n') : '<p>No matches scheduled at the moment.</p>'
+      const html =
+        matchesHtml.length > 0
+          ? matchesHtml.join('\n')
+          : '<p>No matches scheduled at the moment.</p>'
 
-      document.getElementById('fixtures').insertAdjacentHTML('afterbegin', html);
-    });
+      document.getElementById('fixtures').insertAdjacentHTML('afterbegin', html)
+    })
 }
 
-init();
+init()

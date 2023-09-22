@@ -1,0 +1,14 @@
+{
+  "name": "clissoldttc",
+  "version": "1.0.0",
+  "repository": "git@github.com:desbo/clissoldttc.git",
+  "author": "Sam Desborough <sam.desborough@gmail.com>",
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "uvu": "^0.5.6"
+  },
+  "scripts": {
+    "test": "uvu"
+  }
+}
